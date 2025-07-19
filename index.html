@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wifey</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <style>
+    body,h1,h2,h3,h4,h5 {
+      font-family: "Raleway", sans-serif
+    }
+  </style>
+</head>
+<body class="w3-light-grey">
+  <div class="w3-content" style="max-width:1400px">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32"> 
+      <h1><b>Swag's Busting Record</b></h1>
+      <p>Sabrina Is The Best <span class="w3-tag">RAAAH</span></p>
+    </header>
+
+    <div class="w3-row">
+      <div class="w3-col l8 s12">
+        <div class="w3-card-4 w3-margin w3-white">
+          <img src="https://www.sabrinacarpenter.com/wp-content/uploads/sites/1508/2025/06/sc-700x700.jpg" alt="Sabrina Carpenter" style="width:100%">
+          <div class="w3-container">
+            <h3><b>Sabrina Carpenter</b></h3>
+          </div>
+          <div class="w3-container">
+            <p><b>Sabrina a baddie.</b></p>
+            <div class="w3-row">
+              <div class="w3-col m8 s12">
+                <p>
+                  <a href="https://rhythm-plus.com/game/GXEPqSpmGA3VyNQ6G2PEoB" target="_blank" class="w3-button w3-padding-large w3-white w3-border">
+                    <b>Handsy »</b>
+                  </a>
+
+
+                  <div class="w3-row">
+              <div class="w3-col m8 s12">
+                <p>
+                  <a href="https://www.sabrinacarpenter.com/music/" target="_blank" class="w3-button w3-padding-large w3-white w3-border">
+                    <b>Bustables»</b>
+                  </a>
+
+
+                </p>
+              </div>
+              <div class="w3-col m4 w3-hide-small">
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/74KM79TiuVKeVCqs8QtB0B?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <!-- Video Section -->
+        <!-- Video Section -->
+<div class="w3-container w3-center w3-padding-32">
+  <h3><b>Smile babe</b></h3>
+  <video width="700" controls autoplay muted>
+    <source src="Sabrina.mp4" type="video/mp4">
+  </video>
+</div>
+
+<!-- Countdown Timer Section (separated + margin) -->
+<div class="w3-container w3-center w3-padding-32 w3-card-4 w3-margin-top" style="background-color: #bf8787;">
+  <h4><b>Sabrina's Next Drop 💋</b></h4>
+  <p><b><i>Man’s Best Friend</i> drops August 29, 2025!</b></p>
+  <div id="countdown" style="background-color: #bd6e76; color: #ffffff; padding: 12px; display: inline-block; border-radius: 6px; font-size: 24px;"></div>
+</div>
+
+
+<!-- Countdown Script -->
+<script>
+  const releaseDate = new Date("2025-08-29T00:00:00").getTime();
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const diff = releaseDate - now;
+
+    if (diff <= 0) {
+      document.getElementById("countdown").innerHTML =
+        "📀 It's here! 'Man’s Best Friend' is out now!";
+      clearInterval(timer);
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML =
+      `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  }
+
+  updateCountdown();
+  const timer = setInterval(updateCountdown, 1000);
+</script>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
